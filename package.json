@@ -1,0 +1,32 @@
+{
+  "name": "bot_start_up",
+  "version": "1.0.0",
+  "description": "bot for crypto",
+  "main": "main.js",
+  "scripts": {
+    "start:dev":"tsc --watch",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ragnorosss/bot_start_up.git"
+  },
+  "keywords": [
+    "bot",
+    "crypto"
+  ],
+  "author": "Nikita Shevchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ragnorosss/bot_start_up/issues"
+  },
+  "homepage": "https://github.com/Ragnorosss/bot_start_up#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0"
+  }
+}
